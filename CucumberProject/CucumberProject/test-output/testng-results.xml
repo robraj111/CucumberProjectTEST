@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="88028" started-at="2020-08-16T13:25:29 BST" finished-at="2020-08-16T13:26:57 BST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.runner.MyTestngRunner@5a1c0542]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="88028" started-at="2020-08-16T13:25:29 BST" finished-at="2020-08-16T13:26:57 BST">
+      <class name="com.selenium.runner.MyTestngRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.selenium.runner.MyTestngRunner@5a1c0542]" name="setUpClass" is-config="true" duration-ms="424" started-at="2020-08-16T13:25:29 BST" finished-at="2020-08-16T13:25:30 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.runner.MyTestngRunner@5a1c0542]" name="runScenario" duration-ms="17425" started-at="2020-08-16T13:25:30 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-16T13:25:47 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Lgin to RediffMoney"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Loginto Rediff Money]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.runner.MyTestngRunner@5a1c0542]" name="runScenario" duration-ms="15940" started-at="2020-08-16T13:25:47 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-16T13:26:03 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Lgin to RediffMoney and logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Loginto Rediff Money]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.runner.MyTestngRunner@5a1c0542]" name="runScenario" duration-ms="13825" started-at="2020-08-16T13:26:03 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-16T13:26:17 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Lgin to RediffMoney with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Loginto Rediff Money]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.runner.MyTestngRunner@5a1c0542]" name="runScenario" duration-ms="19790" started-at="2020-08-16T13:26:17 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-16T13:26:37 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding portFolio"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Add and Delete PortFolio]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.runner.MyTestngRunner@5a1c0542]" name="runScenario" duration-ms="20470" started-at="2020-08-16T13:26:37 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-16T13:26:57 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete portFolio"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Add and Delete PortFolio]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.selenium.runner.MyTestngRunner@5a1c0542]" name="tearDownClass" is-config="true" duration-ms="99" started-at="2020-08-16T13:26:57 BST" finished-at="2020-08-16T13:26:57 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.selenium.runner.MyTestngRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,823 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-16T12:39:05.509Z",
+        "before": [
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.selenium.steps.GenericSteps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Lgin to RediffMoney",
+        "description": "",
+        "id": "loginto-rediff-money;lgin-to-rediffmoney",
+        "after": [
+          {
+            "result": {
+              "duration": 1312000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.selenium.steps.GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7489000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I go to RediffMoney on browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RediffMoney",
+                  "offset": 8
+                },
+                {
+                  "val": "browser",
+                  "offset": 23
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.launchUrl(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3769000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on loginLink_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginLink_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.click(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter username in username_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 8
+                },
+                {
+                  "val": "username_xpath",
+                  "offset": 20
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.type(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter password in password_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 8
+                },
+                {
+                  "val": "password_xpath",
+                  "offset": 20
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.type(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2130000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on submitButton_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "submitButton_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.click(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1785000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Login should success",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 13
+                }
+              ],
+              "location": "com.selenium.steps.AppSteps.validattion(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-16T12:39:22.525Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.selenium.steps.GenericSteps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Lgin to RediffMoney and logout",
+        "description": "",
+        "id": "loginto-rediff-money;lgin-to-rediffmoney-and-logout",
+        "after": [
+          {
+            "result": {
+              "duration": 717000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.selenium.steps.GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6784000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I go to RediffMoney on browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RediffMoney",
+                  "offset": 8
+                },
+                {
+                  "val": "browser",
+                  "offset": 23
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.launchUrl(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4170000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on loginLink_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginLink_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.click(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter username in username_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 8
+                },
+                {
+                  "val": "username_xpath",
+                  "offset": 20
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.type(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter password in password_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 8
+                },
+                {
+                  "val": "password_xpath",
+                  "offset": 20
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.type(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2097000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on submitButton_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "submitButton_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.click(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2288000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on SignOut_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SignOut_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.click(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Logout should success",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 14
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.logout(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-16T12:39:39.191Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.selenium.steps.GenericSteps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Lgin to RediffMoney with invalid credentials",
+        "description": "",
+        "id": "loginto-rediff-money;lgin-to-rediffmoney-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 667000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.selenium.steps.GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6716000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I go to RediffMoney on browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RediffMoney",
+                  "offset": 8
+                },
+                {
+                  "val": "browser",
+                  "offset": 23
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.launchUrl(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3535000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on loginLink_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginLink_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.click(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I enter username1 in username_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username1",
+                  "offset": 8
+                },
+                {
+                  "val": "username_xpath",
+                  "offset": 21
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.type(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I enter password1 in password_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password1",
+                  "offset": 8
+                },
+                {
+                  "val": "password_xpath",
+                  "offset": 21
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.type(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2096000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click on submitButton_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "submitButton_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.click(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 299000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Login with invlaid credentials should be fail",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fail",
+                  "offset": 41
+                }
+              ],
+              "location": "com.selenium.steps.AppSteps.invalidCredLogin(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          },
+          {
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Loginto Rediff Money",
+    "description": "",
+    "id": "loginto-rediff-money",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/selenium/feature/Login.feature",
+    "tags": [
+      {
+        "name": "@tag1",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-16T12:39:52.922Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.selenium.steps.GenericSteps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Adding portFolio",
+        "description": "",
+        "id": "add-and-delete-portfolio;adding-portfolio",
+        "after": [
+          {
+            "result": {
+              "duration": 662000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.selenium.steps.GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12866000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I login to RediffMoney with deafult username and password on browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 36
+                },
+                {
+                  "val": "password",
+                  "offset": 49
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.doLogin(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2230000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on createPortfolio_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "createPortfolio_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.click(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter portfolioName in enterPortfolioName_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "portfolioName",
+                  "offset": 8
+                },
+                {
+                  "val": "enterPortfolioName_xpath",
+                  "offset": 25
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.type(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2102000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on createPortfolioButton_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "createPortfolioButton_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.click(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2180000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The new Portfolio portfolioName is created and selected in prtfolioLocation_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "portfolioName",
+                  "offset": 18
+                },
+                {
+                  "val": "prtfolioLocation_xpath",
+                  "offset": 59
+                }
+              ],
+              "location": "com.selenium.steps.AppSteps.validateListValue(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-16T12:40:13.154Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.selenium.steps.GenericSteps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Delete portFolio",
+        "description": "",
+        "id": "add-and-delete-portfolio;delete-portfolio",
+        "after": [
+          {
+            "result": {
+              "duration": 697000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.selenium.steps.GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13065000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I login to RediffMoney with deafult username and password on browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 36
+                },
+                {
+                  "val": "password",
+                  "offset": 49
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.doLogin(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2421000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I select portfolioName from prtfolioLocation_xpath dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "portfolioName",
+                  "offset": 9
+                },
+                {
+                  "val": "prtfolioLocation_xpath",
+                  "offset": 28
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.selectValueFromDropdown(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2119000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on deletePortfolio_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "deletePortfolio_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "com.selenium.steps.GenericSteps.click(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I Accept Alert",
+            "match": {
+              "location": "com.selenium.steps.GenericSteps.acceptAlert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2121000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "The portfolioName should be deleted from prtfolioLocation_xpath dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "portfolioName",
+                  "offset": 4
+                },
+                {
+                  "val": "prtfolioLocation_xpath",
+                  "offset": 41
+                }
+              ],
+              "location": "com.selenium.steps.AppSteps.validateDeletedPortfolio(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag5"
+          }
+        ]
+      }
+    ],
+    "name": "Add and Delete PortFolio",
+    "description": "  I want to use this template for my feature file",
+    "id": "add-and-delete-portfolio",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/selenium/feature/PortFolio.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

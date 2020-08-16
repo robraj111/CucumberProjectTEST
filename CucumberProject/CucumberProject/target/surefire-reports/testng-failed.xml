@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite 1]" parallel="tests">
+  <test thread-count="5" verbose="0" name="Test AA(failed)" parallel="tests">
+    <classes>
+      <class name="com.selenium.runner.MyTestngRunner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.selenium.runner.MyTestngRunner -->
+    </classes>
+  </test> <!-- Test AA(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

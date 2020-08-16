@@ -1,0 +1,123 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.selenium.cucumber</groupId>
+  <artifactId>CucumberProject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  
+ <dependencies>
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>6.2.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-picocontainer</artifactId>
+    <version>6.2.2</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>6.2.2</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>6.2.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+  	<groupId>org.testng</groupId>
+   	<artifactId>testng</artifactId>
+   	<version>7.0.0</version>	
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>4.1.7</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+<dependency>
+    <groupId>org.assertj</groupId>
+    <artifactId>assertj-core</artifactId>
+    <version>3.16.1</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>1.3.2</version>
+</dependency>
+
+
+</dependencies>
+ 
+
+<!-- to compile in Maven and run tests in Maven then use below plugins-->
+ <build>
+		<plugins>
+			<!-- Compiler plug-in -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${jdk.level}</source>
+					<target>${jdk.level}</target>
+				</configuration>
+			</plugin>
+			<!-- Below plug-in is used to execute tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				        <version>3.0.0-M4</version>
+				<configuration>
+				    <!-- to run required test suite  add below suite.xml file-->
+					<suiteXmlFiles>
+					
+					<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+					
+						<!-- TestNG suite XML files 
+						<suiteXmlFile>src/test/resources/suiteA.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/suiteB.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/suiteC.xml</suiteXmlFile
+						<suiteXmlFile>target/surefire-reports/testng-failed.xml</suiteXmlFile-->
+					</suiteXmlFiles>
+					
+					 <!-- to run test suite in parallel add below property-->
+					<properties>
+			            <property>
+			                <name>suitethreadpoolsize</name>
+			                <value>2</value>
+			            </property>
+        			</properties>
+        			
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
